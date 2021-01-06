@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_44" data-name="Rectangle 44" width="200" height="200" rx="21" transform="translate(2125 -1462)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="success-logo" transform="translate(-2125 1462)" clip-path="url(#clip-path)">
+    <g id="icon" transform="translate(2125 -1463.696)">
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="200.356" height="200.356" transform="translate(0)"/>
+      <g id="Group_60" data-name="Group 60" transform="translate(41.424 19.099)">
+        <g id="Group_56" data-name="Group 56" transform="translate(0 0)">
+          <text id="A" transform="translate(0 53)" fill="#fff" font-size="66" font-family="BennyBlanco, Benny Blanco"><tspan x="0" y="0">A</tspan></text>
+          <g id="Group_55" data-name="Group 55" transform="translate(71.488)">
+            <text id="S" transform="translate(0 52)" fill="#fff" font-size="65" font-family="BennyBlanco, Benny Blanco"><tspan x="0" y="0">S</tspan></text>
+          </g>
+        </g>
+        <g id="Group_59" data-name="Group 59" transform="translate(8.292 81.968)">
+          <g id="Group_57" data-name="Group 57">
+            <text id="I" transform="translate(0 52)" fill="#fff" font-size="65" font-family="BennyBlanco, Benny Blanco"><tspan x="0" y="0">I</tspan></text>
+          </g>
+          <g id="Group_58" data-name="Group 58" transform="translate(44.01 2.05)">
+            <text id="D" transform="translate(0 53)" fill="#fff" font-size="66" font-family="BennyBlanco, Benny Blanco"><tspan x="0" y="0">D</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path id="Path_31" data-name="Path 31" d="M1764.6,1097.62h0Z" transform="translate(-1641.307 -893.995)" fill="none"/>
+    </g>
+  </g>
+</svg>

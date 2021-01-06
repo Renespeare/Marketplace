@@ -1,0 +1,34 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.page-content {
+  margin-top: 150px;
+}
+
+.section-footer {
+  font-family: "Assistant";
+  padding-top: 50px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  h5 {
+    font-weight: bold;
+  }
+  a {
+    color: #ffffff;
+  }
+  .copy {
+    text-align: center !important;
+    height: 30px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    color: #9a9a9a;
+    p {
+      font-weight: 400 !important;
+    }
+  }
+}
+
+.form-control {
+  background-color: #f3f3f3;
+}

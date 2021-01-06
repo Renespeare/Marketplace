@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="98.384" viewBox="0 0 70 98.384">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #120142;
+        font-family: BennyBlanco, Benny Blanco;
+      }
+
+      .cls-1 {
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(1 2)">
+    <text id="Art" class="cls-1" transform="translate(0 19)"><tspan x="0" y="0">Art</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(0 33.384)">
+      <text id="Snea_kers" data-name="Snea
+kers" class="cls-2" transform="translate(0 20)"><tspan x="0" y="0">Snea</tspan><tspan x="0" y="31">kers</tspan></text>
+    </g>
+  </g>
+</svg>
