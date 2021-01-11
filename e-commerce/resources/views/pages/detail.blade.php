@@ -85,15 +85,23 @@
                 <option>12</option>
                 <option>13</option>
               </select> --}}
+              {{-- <label for="size">Size -US-</label>
+              <<select id="my-select">
+                <option value="1">One</option>
+                <option class="disabled" disabled value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option class="disabled" disabled value="10.5">10.5</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select> --}}
+
               @auth
-                <form action="{{ route('detail-input', $product->id) }}" method="POST" enctype="multipart/form-data">
-                  @csrf
-                    <button
-                      type="submit"
-                      class="btn btn-success nav-link px-4 text-white btn-block mb-3"
-                      >Add to Cart
-                    </button>
-                </form>
+                <a href="{{ route('detail-add',['id'=> $product->id, 'user_id'=> Auth::user()->id] ) }}"
+                  class="btn btn-success nav-link px-4 text-white btn-block mb-3">
+                  Add to cart
+                </a>
               @else
                 <a
                   data-aos="zoom-in"
@@ -103,6 +111,16 @@
                   >Sign In First To Add
                 </a>
               @endauth
+              
+              {{-- <form action="/details/1" method="GET" enctype="multipart/form-data">
+                <input type="hidden" value="{{ Auth::user()->id }}" name="user_id">
+                  <button
+                    type="submit"
+                    class="btn btn-success nav-link px-4 text-white btn-block mb-3"
+                    >Add to Cart
+                  </button>
+              </form> --}}
+             
             </div>
           </div>
         </div>
@@ -147,4 +165,10 @@
         },
       });
     </script>
+    {{-- <script>
+        document.getElementById('my-select').addEventListener('change', function() {
+        console.log('You selected: ', this.value);
+        var val = this.value;
+        });
+    </script> --}}
 @endpush
