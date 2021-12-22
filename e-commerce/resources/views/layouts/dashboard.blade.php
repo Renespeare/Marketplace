@@ -34,27 +34,27 @@
           <div class="list-group list-group-flush">
             <a
               href="{{ route('dashboard') }}"
-              class="list-group-item list-group-item-action"
+              class="list-group-item list-group-item-action nav-link {{ (request()->is('dashboard')) ? 'active' : '' }}"
               >Dashboard</a
             >
             <a
               href="{{ route('dashboard-product') }}"
-              class="list-group-item list-group-item-action"
+              class="list-group-item list-group-item-action nav-link {{ (request()->is('dashboard/products')) ? 'active' : '' }}"
               >My Products</a
             >
             <a
-              href="/dashboard-transactions.html"
-              class="list-group-item list-group-item-action"
+              href="{{ route('dashboard-transaction') }}"
+              class="list-group-item list-group-item-action nav-link {{ (request()->is('dashboard/transactions')) ? 'active' : '' }}"
               >Transactions</a
             >
             <a
-              href="/dashboard-settings.html"
-              class="list-group-item list-group-item-action"
+              href="{{ route('dashboard-settings-store') }}"
+              class="list-group-item list-group-item-action nav-link {{ (request()->is('dashboard/settings')) ? 'active' : '' }}"
               >Store Settings</a
             >
             <a
-              href="/dashboard-account.html"
-              class="list-group-item list-group-item-action"
+              href="{{ route('dashboard-settings-account') }}"
+              class="list-group-item list-group-item-action nav-link {{ (request()->is('dashboard/account')) ? 'active' : '' }}"
               >My Account</a
             >
             <a
@@ -111,10 +111,10 @@
                     Hi, Hafiz
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/index.html"
+                    <a class="dropdown-item" href="{{ route('home') }}"
                       >Back to Store</a
                     >
-                    <a class="dropdown-item" href="/dashboard-account.html"
+                    <a class="dropdown-item" href="{{ route('dashboard-settings-account') }}"
                       >Settings</a
                     >
                     <div class="dropdown-divider"></div>

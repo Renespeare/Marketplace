@@ -18,10 +18,10 @@
             kami akan menginformasikan resi secepat mungkin!
           </p>
           <div>
-            <a class="btn btn-dashboard w-50 mt-4" href="/dashboard.html">
+            <a class="btn btn-dashboard w-50 mt-4" href="/dashboard">
               My Dashboard
             </a>
-            <a class="btn btn-signup w-50 mt-2" href="/index.html">
+            <a class="btn btn-signup w-50 mt-2" href="/">
               Go To Shopping
             </a>
           </div>

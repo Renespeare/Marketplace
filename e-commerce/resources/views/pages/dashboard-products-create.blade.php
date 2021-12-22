@@ -49,10 +49,10 @@
                     Hi, Hafiz
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/index.html"
+                    <a class="dropdown-item" href="{{ route('home') }}"
                       >Back to Store</a
                     >
-                    <a class="dropdown-item" href="/dashboard-account.html"
+                    <a class="dropdown-item" href="{{ route('dashboard-settings-account') }}"
                       >Settings</a
                     >
                     <div class="dropdown-divider"></div>

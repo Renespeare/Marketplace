@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\User;
-use App\Category;
+use App\Models\User;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
